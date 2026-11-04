@@ -1,0 +1,32 @@
+{
+  "name": "@elnemer70/sqlite-cli",
+  "version": "1.0.0",
+  "description": "Inspect SQLite 3 database files, header integrity, and page sizes",
+  "bin": {
+    "sqlite-cli": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "sqlite",
+    "database",
+    "inspector"
+  ],
+  "author": "ElNeMeR70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNeMeR70/sqlite-cli.git"
+  },
+  "homepage": "https://github.com/ElNeMeR70/sqlite-cli#readme",
+  "bugs": {
+    "url": "https://github.com/ElNeMeR70/sqlite-cli/issues"
+  }
+}
